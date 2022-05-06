@@ -20,7 +20,7 @@ make
 **Параллельная версия**
 
 ```bash
-mpicc -np <n> ./parallel_compute <T> <X> <K> <M>
+mpirun -np <n> ./parallel_compute <T> <X> <K> <M>
 ```
 
 *n* - число процессов.
